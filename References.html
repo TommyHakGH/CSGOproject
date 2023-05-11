@@ -1,0 +1,174 @@
+<!doctype html>
+<!doctype html>
+<html>
+<head>
+	<style>
+	body {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(Pictures/Titlebackground.jpg);
+}
+
+		h1{
+	font-family: 'Zen Dots', cursive;
+	font-size: 48px;
+	position: relative;
+	color: rgba(192,167,0,1.00);
+	margin-left: 324px;
+	animation: heading;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	text-shadow: 4px 0px rgba(0,0,0,1.00);
+	margin-right: 492px;
+	background-color: rgba(0,0,0,1.00);
+	border-radius: 0px 0px 0px 125px;
+	margin-top: -10px;
+	padding-bottom: 46px;
+	padding-top: 27px;
+	padding-left: 50px;
+		}
+		@keyframes heading{
+		from{ left:0px; top:0px}
+  		to{ left:500px;}
+		}
+		.btn{
+	font-family: 'Special Elite', cursive;
+	animation: btn;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	position: relative;
+	color: rgba(192,167,0,1.00);
+	text-decoration: none;
+	font-size: 50px;
+	border: thick solid rgba(0,0,0,1.00);
+	background-color: rgba(0,0,0,1.00);
+	margin-left: 242px;
+	margin-right: 216px;
+	border-bottom-left-radius: 76px;
+	padding-left: 165px;
+	padding-bottom: 17px;
+	padding-top: 14px;
+	padding-right: 753px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+		}	
+		@keyframes btn{
+		from{left:0px; top:0px}
+  		to{ left:600px;}
+		}
+			.btn2{
+	font-family: 'Special Elite', cursive;
+	animation: btn2;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	position: relative;
+	color: rgba(192,167,0,1.00);
+	text-decoration: none;
+	font-size: 50px;
+	border: thick solid rgba(0,0,0,1.00);
+	background-color: rgba(0,0,0,1.00);
+	margin-left: 240px;
+	margin-right: 0px;
+	border-bottom-left-radius: 76px;
+	padding-left: 165px;
+	padding-bottom: 17px;
+	padding-top: 0px;
+	padding-right: 530px;
+		}	
+		@keyframes btn2{
+		from{left:0px; top:0px}
+  		to{ left:600px;}
+		}
+		.logo{
+	margin-top: -199px;
+	margin-left: -1158px;
+	position: fixed; /* make sure it stays put so we can see it! */
+  animation: rotate 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+		}
+		@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+	}
+		h2{
+	font-family: 'Zen Dots', cursive;
+	color: rgba(192,167,0,1.00);
+	font-size: 51px;
+	margin-left: 34px;
+		}
+		#footer{
+	font-family: 'Special Elite', cursive;
+	margin-top: 251px;
+	font-size: 25px;
+	margin-left: 677px;
+		}
+		h3{
+	color: rgba(192,167,0,1.00);			
+		}
+		ul{
+	font-family: 'Special Elite', cursive;
+	color: rgba(192,167,0,1.00);
+	font-size: 30px;
+		}
+	</style>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Zen+Dots&display=swap" rel="stylesheet">
+<style type="text/css">
+a:link {
+	text-decoration: none;
+	color: rgba(192,167,0,1);
+}
+a:visited {
+	text-decoration: none;
+	color: rgba(192,167,0,1);
+}
+a:hover {
+	text-decoration: none;
+	color: rgba(255,239,151,1);
+}
+a:active {
+	text-decoration: none;
+	color: rgba(254,251,226,1);
+}
+</style>
+	<script>
+	window.addEventListener(
+  "scroll",
+  () => {
+    document.body.style.setProperty(
+      "--scroll",
+      window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
+    );
+  },
+  false
+);</script>
+<meta charset="utf-8">
+<title>References</title>
+</head>
+<body>
+<header id = "showcase">
+  <h1><a href="Title.html">Counter-Strike:Global Offensive</a></h1>
+	<a href="About.html" class = "btn">About</a>
+	<a href="Controversies.html" class = "btn2">Controversies</a>
+<img class="logo" src="Pictures/Logo.png" width="282" height="283" alt=""/> </header>
+<div id="body">
+<h2>References:</h2>
+	<ul>
+<li>https://www.pcmag.com/news/20-years-ago-counter-strike-changed-how-we-play-competitive-shooters</li>	
+<li>https://blog.scienceandmediamuseum.org.uk/counter-strike-esports/</li>
+<li>https://www.youtube.com/watch?v=H8Nv--NOU2k</li>
+<li>https://www.reddit.com/r/problemgambling/comments/83dsgv/csgo_gambling_and_my_life/</li>
+<li>https://www.espn.com/espn/feature/story/_/id/18510975/how-counter-strike-turned-teenager-compulsive-gambler</li>		
+	
+	</ul>
+<div id="footer">	
+	<h3>
+			Tommy Hak | WebArt Design | Spring 2021
+		</h3>
+	</div>	
+</body>
+</html>
